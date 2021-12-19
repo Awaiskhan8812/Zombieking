@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+    <style>
+        :root{
+            --pink: pink;
+            --yellow: yellow;
+            --red: red;
+            --reddark: #b30000;
+            --blue: blue;
+            --purple: purple;
+            --black: black;
+            --whitesmoke: whitesmoke;
+            --green: green;
+        }
+        #head{
+            font-family: sans-serif;
+            background-color: #1b5e20;
+            background: linear-gradient(165deg , red , #b30000);
+            color: #ffffff;
+            text-align: center;
+            padding: 5px;
+        }
+        a{
+            font-family: sans-serif;
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 30px;
+            transition: 0.5s;
+            margin-left: 10px;
+            width: 150px;
+            border: 3px solid rgb(145, 94, 0);
+            font-size: 150%;
+            cursor: pointer;
+            background:  orange;
+            transition: 0.5s;
+        }
+        @keyframes homebuttons{
+            0%{background-color: red;}
+            50%{background-color: #b30000;}
+            100%{background-color: rgb(255, 255, 255);}
+        }
+        a:hover{
+            padding: 11px;
+            background: rgb(145, 94, 0);
+            box-shadow: 0 0 10px #fffefe,
+            0 0 20px #ff0000;
+            border: 3px solid orange;
+        }
+    </style>
+</head>
+<body bgcolor="#e8f5e9">
+    <div id="head">
+        <h1>Home</h1>
+    </div>
+    <div style="margin:200px;">
+        <center><a href="login">Login in</a><a href="register">Register</a></center>
+    </div>
+    <hr>
+    <p align="center">
+        <b>
+            Developed by
+        </b>
+        <i>
+            Awais
+        </i>
+    </p>
+</body>
+</html>
+
